@@ -12,7 +12,3 @@ for (let i = 0; i < arr3.length; i++) {
 for (let i of arr3) {
 console.log(i);
 }
-
-arr3.forEach(arr)=>(
-
-)
