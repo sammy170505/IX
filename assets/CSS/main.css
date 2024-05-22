@@ -1,81 +1,29 @@
 /* main.css */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-}
-
 header {
   background-color: #35424a;
-  color: white;
-  padding: 20px 0;
+  color: bisque;
+  padding: 30px 0;
+  font-size:25px;
   text-align: center;
 }
-
-h1 {
-  margin: 0;
+body {
+  font-family: 'Times New Roman';
+  font-size: medium;
+  background-color: brown;
+  margin-top: 100;
+  padding: 100;
 }
-
-nav ul {
-  list-style: none;
-  padding: 0;
+section {
+  text-align: right;
 }
-
-nav ul li {
-  display: inline;
-  margin: 0 10px;
+img {
+  width: 200px;
+  border-radius: 40%;
+  text-align: left;
+  position: absolute;
+  left:20px;
+  top: 150px;
 }
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-.container {
-  margin: 20px auto;
-  padding: 20px;
-  max-width: 1200px;
-  background: white;
-}
-#offcanvas-left,
-#offcanvas-right {
-    flex: 0 0 280px;
-    background-color: #111;
-    color: white;
-    transition-duration: .5s;
-}
-#offcanvas-left.hide {
-    margin-left: -280px;
-}
-#offcanvas-right.hide {
-    margin-right: -280px;
-}
-.togglebar {
-    background-color: #232323;
-    flex: 0 0;
-    min-width: 50px;
-    max-width: 5px;
-}
-.toggle i {
-    height: 80px;
-    font-size: 1.4em;
-    width: 100%;
-    color: var(--first-color);
-    display: flex;   
-    align-items: center;
-    justify-content: center;
-    background-color: #111;
-}
-.toggle i:hover {
-    color: var(--second-color);
-}
-footer {
-  text-align: center;
-  padding: 10px 0;
-  background: #35424a;
-  color: white;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
+i{
+  height: 10px;
 }
